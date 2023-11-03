@@ -7,6 +7,10 @@ require("mason-lspconfig").setup({
         'clangd',
         'cmake',
         'lua_ls'
+    },
+    handlers = 
+    {
+        lsp.default_setup,
     }
 })
 
